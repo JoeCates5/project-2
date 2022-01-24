@@ -1,5 +1,5 @@
 FROM python:3.8
-MAINTAINER John Doe "noemail@website.domain"
+MAINTAINER Joe Cates "jcates5@uoregon.edu"
 RUN apt-get update -y
 COPY . /app
 WORKDIR /app
